@@ -7,4 +7,4 @@ datasource:
   password: root
 custom:
   featureToggle:
-    enableAwesomeFeature: true
+    enableAwesomeFeature: false
