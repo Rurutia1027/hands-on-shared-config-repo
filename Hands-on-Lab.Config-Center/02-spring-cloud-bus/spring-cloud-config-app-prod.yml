@@ -3,8 +3,8 @@ spring:
     name: spring-cloud-bus-app
 datasource:
   url: jdbc:mysql://localhost:3306/spring-cloud-bus-app
-  username: root
-  password: root
+  username: rurutia
+  password: rurutia
 custom:
   featureToggle:
     enableAwesomeFeature: true
