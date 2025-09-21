@@ -22,4 +22,4 @@ custom:
     featureA: true
     featureB: "Hello, Hands-on Lab!"
     maxItems: 10
-    message: "Welcome to Flux + Consul integration Spring Boot Application for Prod Profile and here we modify the config to detect event can be retrieved by the app!"
+    message: "Welcome to Flux + Consul integration Spring Boot Application!"
