@@ -21,5 +21,5 @@ custom:
   config:
     featureA: true
     featureB: "Hello, Hands-on Lab!"
-    maxItems: 10
+    maxItems: 10000
     message: "Welcome to Flux + Consul integration Spring Boot Application!"
