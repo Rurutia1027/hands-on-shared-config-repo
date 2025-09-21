@@ -26,4 +26,4 @@ custom:
     featureA: true
     featureB: "Hello, Hands-on Lab!"
     maxItems: 10
-    message: "Welcome to Flux + Consul integration demo!"
+    message: "Welcome to Flux + Consul integration demo -- update for Flux + CronJob Test!"
