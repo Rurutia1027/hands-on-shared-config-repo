@@ -25,5 +25,5 @@ custom:
   config:
     featureA: true
     featureB: "Hello, Hands-on Lab!"
-    maxItems: 10
+    maxItems: 1000000 
     message: "Welcome to Flux + Consul integration demo!"
