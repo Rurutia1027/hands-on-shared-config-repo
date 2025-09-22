@@ -25,5 +25,5 @@ custom:
   config:
     featureA: true
     featureB: "Hello, Hands-on Lab Test for Sync Consul to App!"
-    maxItems: 777777
+    maxItems: 66666
     message: "Welcome to Flux + Consul integration demo -- update for Flux + CronJob Test!"
