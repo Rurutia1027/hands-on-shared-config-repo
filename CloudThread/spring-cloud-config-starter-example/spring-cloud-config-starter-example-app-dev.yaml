@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cloudthread-spring-cloud-config-starter-example
+    name: spring-cloud-config-starter-example
   profiles:
     active: dev
   config:
