@@ -55,3 +55,22 @@ cloudthread:
       working-queue: LinkedBlockingQueue
       rejected-handler: AbortPolicy
       allow-core-thread-timeout: true
+
+# enable actuator endpoint expose metrics
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - prometheus
+          - refresh
+          - health
+          - env
+  endpoint:
+    refresh:
+      enabled: true
+  metrics:
+    prometheus:
+      metrics:
+        export:
+          enabled: true  
