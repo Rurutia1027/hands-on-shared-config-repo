@@ -4,5 +4,3 @@ server:
 spring:
   application:
     name: spring-cloud-config-starter-example
-  profile:
-    activate: prod
