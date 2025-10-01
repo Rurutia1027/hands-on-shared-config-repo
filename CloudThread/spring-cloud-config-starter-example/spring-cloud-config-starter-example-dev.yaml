@@ -15,7 +15,7 @@ cloudthread:
   # Spring Cloud Config related configuration
   spring-cloud-config:
     application-name: spring-cloud-config-starter-example
-    profile: prod
+    profile: dev
     label: main   # The branch or label in the config repository
 
   # Consul Config related configuration (optional if not used)
