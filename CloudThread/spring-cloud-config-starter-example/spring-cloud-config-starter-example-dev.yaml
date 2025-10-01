@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: cloudthread-spring-cloud-config-starter-example
+    name: spring-cloud-config-starter-example
   # Import config server with optional: avoids startup failure if server is down
   config:
     import: optional:configserver:http://localhost:8888
