@@ -1,7 +1,6 @@
+server:
+  port: 18080
+
 spring:
   application:
     name: spring-cloud-config-starter-example
-  datasource:
-    url: jdbc:mysql://localhost:3316/cloudthread_dev
-    username: root
-    password: root
