@@ -10,8 +10,7 @@ spring:
   cloud:
     config:
       # Map to config server URL: {name}/{profile}/{label}
-      name: cloudthread-spring-cloud-config-starter-example
-      profile: dev
+      name: spring-cloud-config-starter-example
       label: main
 
 cloudthread:
