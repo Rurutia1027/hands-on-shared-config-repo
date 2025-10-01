@@ -1,3 +1,15 @@
-server:
-  port: 18080
+# hands-on-shared-config-repo/CloudThread/spring-cloud-config-starter-example/spring-cloud-config-starter-example-dev.yaml
 
+datasource:
+  url: jdbc:mysql://localhost:3306/mydb
+  username: root
+  password: root
+
+custom:
+  featureToggle:
+    enableAwesomeFeature: true
+
+cloudthread:
+  web-config:
+    core-pool-size: 10
+    maximum-pool-size: 50
