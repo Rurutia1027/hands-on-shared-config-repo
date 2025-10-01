@@ -53,7 +53,7 @@ cloudthread:
       core-pool-size: 5
       maximum-pool-size: 10
       queue-capacity: 500
-      keep-alive-time-seconds: 30
+      keep-alive-time-seconds: 300
       working-queue: LinkedBlockingQueue
       rejected-handler: AbortPolicy
       allow-core-thread-timeout: false
@@ -67,7 +67,7 @@ cloudthread:
       rejected-handler: AbortPolicy
       allow-core-thread-timeout: false
 
-# enable actuator endpoint expose metrics
+# enable actuator endpoint to expose metrics
 management:
   endpoints:
     web:
@@ -84,4 +84,5 @@ management:
     prometheus:
       metrics:
         export:
+
           enabled: true            # enable Prometheus export
