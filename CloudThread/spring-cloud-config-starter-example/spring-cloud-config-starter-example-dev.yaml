@@ -27,19 +27,19 @@ cloudthread:
   # Custom thread pool definitions
   executors:
     - thread-pool-uid: cloudthread-producer
-      core-pool-size: 5
-      maximum-pool-size: 10
-      queue-capacity: 500
-      keep-alive-time-seconds: 30
+      core-pool-size: 6
+      maximum-pool-size: 22
+      queue-capacity: 1500
+      keep-alive-time-seconds: 33
       working-queue: LinkedBlockingQueue
       rejected-handler: AbortPolicy
       allow-core-thread-timeout: true
 
     - thread-pool-uid: cloudthread-consumer
-      core-pool-size: 5
-      maximum-pool-size: 10
-      queue-capacity: 500
-      keep-alive-time-seconds: 30
+      core-pool-size: 7
+      maximum-pool-size: 17
+      queue-capacity: 5007
+      keep-alive-time-seconds: 310
       working-queue: LinkedBlockingQueue
       rejected-handler: AbortPolicy
       allow-core-thread-timeout: true
